@@ -1,0 +1,11 @@
+.text
+MOV R0, #0x00
+MOV R1, #0x01
+MOV R2, #0x02
+MOV R3, #0x03
+MOV R4, #0x04
+ADD R5, R0, R1
+ADD R6, R2, R5
+ADD R7, R3, R6
+ADD R8, R4, R7
+.end 
